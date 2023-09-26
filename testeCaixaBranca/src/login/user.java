@@ -9,7 +9,7 @@ public class user {
         Connection conn = null
          try{
              Class.forName("com.mysql.Driver.Manager").newInstance();
-             String ur1 = "jdbc:mysql://127.0.0.1/test?user=lops&password=123";
+             String url = "jdbc:mysql://127.0.0.1/test?user=lops&password=123";
              conn = DriverManager.getConnection(url);
          } catch (Exception e) {  }
          return conn;}
@@ -28,7 +28,6 @@ public class user {
             if (rs.next ())(
                     result = true;
                     nome = rs.getString("nome");
-                    )
         }catch (Exception e) { }
         return result;
     }
