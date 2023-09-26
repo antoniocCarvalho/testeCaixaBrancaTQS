@@ -25,4 +25,4 @@ Sim, ela foi devidamente respeitada
 1. Variavel ur1 não declarada
 2. Falta de Fechamento de Conexão, onde pode ocorrer diversos problemas
 
-![Descrição](caixaBrancaErro.png)
+![Descrição](caixaBrancaErros.png)
