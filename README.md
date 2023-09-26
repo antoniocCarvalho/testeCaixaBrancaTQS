@@ -3,7 +3,7 @@
 ## Descrição
 O teste de caixa branca é uma técnica de teste de software que examina o código interno de um programa para avaliar sua lógica, estrutura e caminhos de execução, com o objetivo de encontrar erros e garantir uma cobertura abrangente do código-fonte.
 
-![Descrição](caixaBranca.png)
+![Descrição](caixaBrancaTQS.png)
 
  # 1- A DOCUMENTAÇÃO FOI DESCRITA NO CÓDIGO? 
  Não foi descrita no codigo, pois é possivel encontrar alguns erros.
@@ -25,4 +25,4 @@ Sim, ela foi devidamente respeitada
 1. Variavel ur1 não declarada
 2. Falta de Fechamento de Conexão, onde pode ocorrer diversos problemas
 
-![Descrição](caixaBrancaErros.png)
+![Descrição](caixaBrancaErrosTQS.png)
