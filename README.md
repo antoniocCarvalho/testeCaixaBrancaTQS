@@ -30,7 +30,7 @@ Sim, ela foi devidamente respeitada
 
 
 
-#8- GRAFO DE FLUXO
- Segue a imagem
+# 8- GRAFO DE FLUXO
+ 1.Segue a imagem
 
 ![Descrição](GrafoDeFluxo.png) 
