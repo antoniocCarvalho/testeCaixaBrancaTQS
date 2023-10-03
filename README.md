@@ -21,9 +21,9 @@ Todos nullpointers foram tratados
 Sim, ela foi devidamente respeitada
 
 
-# 7- ERROS DO CÓDIGO 
+# 6- ERROS DO CÓDIGO 
 1. Variavel urL nunca usada 
 2. Falta de Fechamento de Conexão, onde pode ocorrer diversos problemas
 3. " 'newInstance()' is deprecated" significa que ele foi descontinuado em favor de mecanismos mais novos e flexíveis para criar objetos.
 
-![Descrição](caixaBrancaErrosTQS.png)
+![Descrição](caixaBrancaErrosTQS.png) de 
