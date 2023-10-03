@@ -34,3 +34,21 @@ Sim, ela foi devidamente respeitada
  1.Segue a imagem
 
 ![Descrição](GrafoDeFluxo.png) 
+
+
+# 9- COMPLEXIDADE CICLOMÁTICA
+
+1. V(G) = 11 - 9 + 2 = 4.
+2. V(G) = 3 + 1 = 4.
+(Utilizando as duas fórmulas é possível identificar o resultado "4", representando 4 caminhos possíveis.)
+
+# 10- BASE DE CAMINHOS
+
+1. Ponto de Entrada -> Início do método conectarBD -> Construção da URL de conexão -> Tentativa de conexão com o banco de dados -> Fim do método conectarBD;
+
+2. Ponto de Entrada -> Início do método verificarUsuario -> Construção da instrução SQL -> Criação da declaração SQL -> Execução da consulta SQL -> Verificação do resultado da consulta (com resultado verdadeiro) -> Definir a variável 'result' como verdadeira e obter o nome -> Retorno da função verificarUsuario;
+
+3. Ponto de Entrada -> Início do método verificarUsuario -> Construção da instrução SQL -> Criação da declaração SQL -> Execução da consulta SQL -> Verificação do resultado da consulta (sem resultado verdadeiro) -> Retorno da função verificarUsuario;
+
+4. Ponto de Entrada -> Início do método verificarUsuario -> Construção da instrução SQL -> Criação da declaração SQL -> Execução da consulta SQL (com erro) -> Tratamento de exceção -> Retorno da função verificarUsuario.
+
