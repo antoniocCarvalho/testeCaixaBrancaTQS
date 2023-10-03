@@ -31,7 +31,7 @@ Sim, ela foi devidamente respeitada
 
 
 # 8- GRAFO DE FLUXO
- 1.Segue a imagem
+ 1. Segue a imagem
 
 ![Descrição](GrafoDeFluxo.png) 
 
